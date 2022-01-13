@@ -9335,7 +9335,7 @@ header .header-six.header-seven .main-menu.menu-eight.menu-fixed.animated.fadeIn
 
 /* Our Css  */
 .navbar-brand img {
-    width: 200px;
+    width: 80px;
 }
 
 .banner-image img {
@@ -9466,4 +9466,16 @@ header .header-six.header-seven .main-menu.menu-eight.menu-fixed.animated.fadeIn
 
 .multi-gallery-section .gallery-title h4 a {
     color: inherit
+}
+
+.box-img-gallery {
+    margin-bottom: 25px;
+}
+
+.box-img-gallery img {
+    border-radius: 15px;
+}
+
+.faq-section.padding-120 {
+    background: #fff;
 }
