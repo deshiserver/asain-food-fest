@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trialrr/public_html/asianfoodfair/
+    - export REPOPATH=/home/trialrr/asianfoodfair/
+    - rsync -aP --exclude '.env' ${REPOPATH}/ ${DEPLOYPATH}
